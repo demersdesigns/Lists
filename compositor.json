@@ -1,0 +1,85 @@
+{
+  "name": "demersdesigns/Lists",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Lists",
+  "branch": "",
+  "style": {
+    "name": "Material",
+    "componentSet": {
+      "nav": "nav/DarkAbsoluteNav",
+      "header": "header/GradientHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Roboto, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "letterSpacing": "-0.01em"
+    },
+    "colors": {
+      "text": "#212121",
+      "background": "#fff",
+      "primary": "#2196f3",
+      "secondary": "#1565c0",
+      "highlight": "#ff4081",
+      "border": "#e0e0e0",
+      "muted": "#f5f5f5"
+    },
+    "layout": {
+      "centered": true,
+      "bannerHeight": "80vh",
+      "maxWidth": 896
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/demersdesigns/Lists",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "Lists",
+      "subhead": "Official repository of all the lists for https://lists.design",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "Lists: Official repository of all the lists for https://lists.design",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "demersdesigns",
+          "repo": "Lists"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h2>Lists</h2>\n<p><a href=\"https://lists.design/\">Lists.design</a> is a gallery of real data ready to be placed in your design. Kind of like an App Store for fake content. Want to design with real data ? There&apos;s a list for that.</p>\n<p>We (the creators) want it to become an extensive library of all the types of content that designers may need to create mockups (this is where we need you, the community!). Let&apos;s all start to ##reallydesign.</p>\n<h2>Suggest a list</h2>\n<p>We&#x2019;re working hard to add all the Lists and answer all the designers&#x2019; data needs. If you think one is missing, we&#x2019;d love you to add a new list by contributing to this Github repo or by <a href=\"https://github.com/jperriere/Lists/issues\">creating an issue</a>.</p>\n<p>Hope you find <a href=\"https://lists.design/\">Lists.design</a> useful! &#x1F64C;</p>\n<h2>Contributing</h2>\n<p>We love pull requests. Here&apos;s a quick guide:</p>\n<ol>\n<li>Fork the repo.</li>\n<li>Add your new list by creating another JSON file. Make sure to respect the structure used in all the lists.</li>\n<li>Push to your fork and submit a pull request. If you&apos;re submitting an improvement to a list, make sure to explain it.</li>\n</ol>\n<h2>License</h2>\n<p>This project is licensed under the terms of the MIT license.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/demersdesigns/Lists",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/demersdesigns",
+          "text": "demersdesigns"
+        }
+      ]
+    }
+  ]
+}
